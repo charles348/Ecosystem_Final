@@ -53,9 +53,5 @@ public abstract class Organism{
      */
     public abstract void onNextCycle();
     
-    /**
-     * Called when an animal enters the organism's collision.
-     * @param organism
-     */
     public abstract void onCollisionEnter(Animal animal);
 }
