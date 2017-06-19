@@ -31,7 +31,7 @@ public class Lion extends Animal{
 		if (rnd.nextInt(100) <= 70){
                     
 			/*
-			 * Lions eat zebras and rabbits when they are found at the same location with a chance of 70%.
+			 * Lions eat zebras and rabbits when they collide with a chance of 70%.
 			 */
 			eat(animal);
 		}
